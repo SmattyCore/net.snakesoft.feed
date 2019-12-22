@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <PackageId>net.snakesoft.feed</PackageId>
+    <Authors>SnakeSoft</Authors>
+    <Product>net.snakesoft.feed</Product>
+    <Description>Library using the SyndicationFeed and extending for compatibility with WordPress feeds.</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageTags>syndicationfeed,feed,rss,wordpress</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.ServiceModel.Syndication" Version="4.7.0" />
+  </ItemGroup>
+
+</Project>
